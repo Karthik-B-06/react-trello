@@ -1,0 +1,43 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "drag and drop",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 8090 --hot",
+    "build": "webpack ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthik B",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^0.28.11",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.0",
+    "react": "^16.4.0",
+    "react-beautiful-dnd": "^8.0.2",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.14.0"
+  }
+}

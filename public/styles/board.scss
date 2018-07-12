@@ -1,0 +1,13 @@
+.boards {
+  display: flex;
+  align-items: flex-start;
+}
+
+.cardBoard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-title {
+  margin-top: 3px; 
+  margin-right: 10px;
+}
+
